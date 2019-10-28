@@ -1,0 +1,21 @@
+{
+  "name": "example_assertion_frameworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "instrument": "babel --presets power-assert examples.spec.js > dist/examples.spec.js",
+    "test": "jest examples.spec.js --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-plugin-espower": "^3.0.0",
+    "babel-preset-power-assert": "^2.0.0",
+    "jest": "^23.6.0",
+    "power-assert": "^1.6.1",
+    "unexpected": "^10.39.1"
+  }
+}
